@@ -1,0 +1,2 @@
+# Interdire l'accès direct aux logs
+deny from all
