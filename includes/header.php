@@ -270,6 +270,14 @@ $isAdmin = ($userRole === 'administrateur');
             </li>
             
             <li class="nav-item">
+                <a class="nav-link <?php echo ($currentPage ?? '') === 'hebergement_urgence' ? 'active' : ''; ?>" 
+                   href="<?php echo BASE_URL; ?>hebergement_urgence/">
+                    <i class="fas fa-ambulance"></i>
+                    Hébergement d'urgence (HD)
+                </a>
+            </li>
+            
+            <li class="nav-item">
                 <a class="nav-link <?php echo ($currentPage ?? '') === 'repas' ? 'active' : ''; ?>" 
                    href="<?php echo BASE_URL; ?>repas/">
                     <i class="fas fa-utensils"></i>
